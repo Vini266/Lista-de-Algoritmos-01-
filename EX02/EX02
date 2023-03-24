@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main ()
+{
+	setlocale(LC_ALL, "portuguese");
+	
+	double g, p;
+	printf("Qual o número de galaxias?\n");
+	scanf("%lf", &g);
+	p = 17000000000*g;
+	printf("O número aproximado de planetas é: %0.lf", p);
+	
+	
+}
